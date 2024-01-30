@@ -17,4 +17,5 @@ router.get("/single-category/:slug",singleCategoryController);
 //delete category
 router.delete("/delete-category/:id",requireSignIn,isAdmin,
 deleteCategoryCOntroller);
+
 export default router;
